@@ -12,7 +12,7 @@ def main(self):
         screen.addstr(8,2, '1 - What is the answer to life ? ')
         screen.addstr(9,2, '2 - Give me my computer uptime')
         screen.addstr(15,2, 'q - Bye Bye')
-        #recupération des saisies utilisateurs
+        #get user input
         event = screen.getch()
         if event == ord("q"):
             break
